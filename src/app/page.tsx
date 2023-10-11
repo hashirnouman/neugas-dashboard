@@ -1,13 +1,15 @@
+import Button from "@/components/atoms/button";
+import Text from "@/components/atoms/text";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <div className="">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-        officia obcaecati alias placeat! Voluptatum id dolor itaque, optio
-        suscipit atque sed explicabo soluta eum numquam incidunt fugiat deleniti
-        sint accusamus?
+      <div>
+        <Text p className="text-5xl">
+          hello
+        </Text>
+        <Button />
       </div>
     </main>
   );
